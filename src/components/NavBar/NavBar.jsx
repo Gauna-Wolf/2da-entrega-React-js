@@ -6,9 +6,9 @@ const NavBar = () => {
         <nav style={{display: "flex", justifyContent:"space-between", alignItems: "centerv"}}>
             <h1>Ecomerce</h1>
             <section>
-                <Link to={"/category/Celular"}>Televisor</Link>
-                <Link to={"/category/Tablet"}>Heladera</Link>
-                <Link to={"/category/Computers"}>Cocina</Link>
+                <Link to={"/category/Celular"}>Celulares</Link>
+                <Link to={"/category/Tablet"}>Tablet</Link>
+                <Link to={"/category/Computers"}>Computadoras</Link>
             </section>
             <CartWidget />
         </nav>
