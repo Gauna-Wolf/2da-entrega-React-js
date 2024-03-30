@@ -1,5 +1,6 @@
+
 import { useCart } from "../../context/CartContext"
-import "./CartItem.css"
+
 const CartItem = ({ id, name, price, img, stock, quantity }) => {
     console.log(img);
     const { removeItem } = useCart()
@@ -8,7 +9,7 @@ const CartItem = ({ id, name, price, img, stock, quantity }) => {
     }
     return (
 
-        <div className="container text-center clearfix cartItemClass">
+        <div className="container text-center ">
             <div className="row align-items-start">
                 <div className="col">
                     <img className="img-fluid col-md-6 float-md-end mb-3 ms-md-3" src={img} alt={name} />
@@ -32,10 +33,6 @@ const CartItem = ({ id, name, price, img, stock, quantity }) => {
                 </div>
             </div>
         </div>
-
-
-
-
 
     )
 }
