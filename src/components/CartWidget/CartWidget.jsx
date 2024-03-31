@@ -1,4 +1,4 @@
-import { useCart } from "../../context/CartContext"
+import { useCart } from "../../Context/CartContext"
 import cart from "../assets/cart.svg"
 const CartWidget = () => {
   const {totalQuantity} = useCart()

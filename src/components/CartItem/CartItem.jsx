@@ -1,5 +1,5 @@
 
-import { useCart } from "../../context/CartContext"
+import { useCart } from "../../Context/CartContext"
 
 const CartItem = ({ id, name, price, img, stock, quantity }) => {
     console.log(img);
