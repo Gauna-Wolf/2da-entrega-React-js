@@ -4,10 +4,10 @@ const Notification = ({ notification }) => {
   const { message, severity } = notification;
 
   const background = {
-    success: "cyan",
-    error: "red",
-    warning: "yellow",
-    info: "orange"
+    success: "purple",
+    error: "yellow",
+    warning:"red",
+    info: "green"
   };
   const notificationStyle = {
     position: "fixed",

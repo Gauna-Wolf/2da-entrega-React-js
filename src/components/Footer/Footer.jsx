@@ -9,7 +9,8 @@ const Footer = () => {
           <div className="col-lg-3 mb-2 contentFooter" >
             <h3 className="text-light contentFooter">Nosotros <div className="hrFooter"> </div></h3>
             <p className="text-dark pt-2 contentFooter"> 
-            Ofrecemos una amplia gama de dispositivos de última generación
+            Ofrecemos una amplia gama de tecnologia 
+            de última generación
             </p>
           </div>
           <div className="col-lg-3 mb-2 contentFooter" >

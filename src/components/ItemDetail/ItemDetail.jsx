@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-//import React, { useState } from "react";
 import ItemCount from "../ItemCount/ItemCount";
 import { Link } from "react-router-dom";
 import { useCart } from "../../Context/CartContext";
@@ -45,7 +44,7 @@ const ItemDetail = ({ id, name, price, img, stock, description }) => {
             {addedToCart ? (
               <div>
                 <Link to="/cart" className="btn btn-primary mb-2">Ir al carrito</Link>
-                <Link to="/" className="btn btn-primary mb-2">Seguir comprando</Link>
+                <Link to="/" className="btn btn-primary mb-2">Comprar mas</Link>
               </div>
             ) : (
               <div>
