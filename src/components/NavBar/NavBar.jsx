@@ -1,12 +1,12 @@
 import CartWidget from "../CartWidget/CartWidget";
-import LogoMain from "../LogoMain/LogoMain";
+//import LogoMain from "../LogoMain/LogoMain";
 import { Link, NavLink } from "react-router-dom";
 
 const NavBar = () => {
     return (
         <nav className="navbar navbar-expand-md navbar-light bg-light fixed-top shadow mb-5 bg-body rounded  pb-0 pt-0">
             <div className="container-fluid d-flex justify-content-between">
-                <Link to="/" className="navbar-brand"><LogoMain /></Link>
+                <Link to="/" className="navbar-brand"></Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
